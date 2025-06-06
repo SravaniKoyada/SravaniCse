@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Quiz Application</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="quiz-container" role="main">
+    <h1>Simple Quiz</h1>
+    <div id="quiz-content">
+      <div id="question">Question text</div>
+      <ul class="answers" id="answers-list">
+        <!-- Answers will be injected here -->
+      </ul>
+      <div class="buttons">
+        <button id="prev-btn" disabled>Previous</button>
+        <button id="next-btn">Next</button>
+        <button id="submit-btn" style="display:none;">Submit</button>
+      </div>
+    </div>
+    <div id="score-container" style="display:none;"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
